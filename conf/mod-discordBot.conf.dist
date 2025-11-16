@@ -1,0 +1,29 @@
+# Discord Webhook Module Configuration
+[worldserver]
+
+# Enable or disable the module
+Enable = 0
+
+# Name of this server (for Discord notifications)
+ServerName = "MyServer"
+
+# Language for Discord notifications (e.g., en, de, fr)
+NotificationLanguage = "en"
+
+# Enable or disable debug logging for DiscordBot
+DiscordBotDebug = 0
+
+# Public channel for player-related notifications
+PlayerWebhookURL = "YOUR_PLAYER_DISCORD_WEBHOOK_URL"
+
+# Private channel for server status notifications
+ServerWebhookURL = "YOUR_SERVER_DISCORD_WEBHOOK_URL"
+
+# List of account IDs that should trigger notifications (comma-separated)
+AllowedAccounts = "1,2,3,4,5,6,7,8"
+
+# Rare Spawn Kill Notification
+EnableRareSpawnKills = 0
+
+# Boss Kill Notification
+EnableBossKills = 0

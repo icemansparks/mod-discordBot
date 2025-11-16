@@ -1,0 +1,15 @@
+# IDE and editor folders
+.vscode/
+
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# OS files
+.DS_Store
+Thumbs.db
